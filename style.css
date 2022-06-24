@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;1,400&family=Roboto:ital,wght@0,100;0,400;0,500;1,300&family=Tiro+Devanagari+Sanskrit&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fafafa;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(-45deg, #f69449, #9c7029);
+    border-radius: 50px;
+}
+
+.bg-cat {
+    background-color: #FAEBD7;
+}
+
+.mau-cam {
+    color: #EA8025;
+}
+
+.navbar-dark .navbar-nav .nav-item:hover {
+    color: #fff;
+    border-bottom: #EA8025 2px solid;
+    padding-bottom: 0;
+}
+
+.navbar-dark .icon-navbar a {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-dark .icon-navbar a:hover {
+    color: #EA8025;
+}
+
+.carousel .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border: #fff 1px solid;
+}
+
+.navbar form input:focus {
+    border-color: #f69449;
+}
